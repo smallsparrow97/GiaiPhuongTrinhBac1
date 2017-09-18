@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gameloft.pc.giaiphuongtrinhbac1.ResultActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kết quả Giải Phương Trình Bậc Nhất"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kết quả: "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="Back"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+</LinearLayout>

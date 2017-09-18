@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gameloft.pc.giaiphuongtrinhbac1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Giải Phương Trình Bậc Nhất"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <TextView
+            android:id="@+id/txtNhapSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Nhập số a: "/>
+
+        <EditText
+            android:id="@+id/edtA"
+            android:layout_toRightOf="@+id/txtNhapSoA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/edtA2"
+            android:layout_toRightOf="@+id/txtNhapSoA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/txtNhapSoB"
+            android:layout_below="@+id/txtNhapSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Nhập số b: "
+            android:inputType=""/>
+
+        <EditText
+            android:id="@+id/edtB"
+            android:layout_toRightOf="@+id/txtNhapSoB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edtA"
+            />
+        <EditText
+            android:id="@+id/edtB2"
+            android:layout_toRightOf="@+id/txtNhapSoA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="Kết quả"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+</LinearLayout>
